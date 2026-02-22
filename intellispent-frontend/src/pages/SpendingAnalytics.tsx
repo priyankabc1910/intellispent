@@ -11,7 +11,7 @@ const COLORS = [
 
 const tooltipStyle = {
   background: "hsl(220 16% 10%)", border: "1px solid hsl(220 12% 17%)",
-  borderRadius: "6px", color: "hsl(220 10% 85%)", fontSize: 12,
+  borderRadius: "6px", color: "hsl(0, 0%, 0%)", fontSize: 12,
 };
 
 export default function SpendingAnalytics() {
@@ -41,7 +41,7 @@ export default function SpendingAnalytics() {
 
   return (
     <div>
-       <h1 className="text-xl font-bold mb-0.5 text-white">Spending Analytics</h1>
+       <h1 className="text-xl font-bold mb-0.5 text-black">Spending Analytics</h1>
       <p className="text-muted-foreground text-xs mb-8">Deep dive into your spending patterns.</p>
 
       {/* Section 1: Pie Chart */}
